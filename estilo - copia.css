@@ -1,0 +1,140 @@
+body
+
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #020531;
+    font-family: consolas;
+
+}
+.btn-neon{
+    left: 100PX;
+    border-radius: 12px;
+    margin: 30px;
+    position:relative;
+display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: o.2s;
+    bottom: 300px;
+  
+
+ 
+}
+.btn-neon:hover{
+    background: #000000;
+    box-shadow: 0 0 10px #f9fbff,0 0 40px
+    #cfd2db, 0 0 80px #ffffff;
+    transition-delay: 1s;
+
+}
+.btn-neon:hover #span1{
+   right: 100%;
+   transition: 1s;
+   transition-delay: 0.5s;
+
+}
+#span1:hover{
+    bottom: 0;
+    right: -100%;
+    width: 100;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,#a945c7);
+   
+}
+.btn-neon:hover #span1{
+    top: 50px;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+  
+.contact{
+    margin:40px;
+    padding: 80px 17%;
+    background: var(--text-color);
+}
+.main-contact{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(225px, auto));
+ gap: 2rem;
+ margin-bottom: 3rem;
+}
+.contact-content li{
+    margin-bottom: 15px;
+}
+.contact-content li a{
+   display: block;
+   color:#f2ebeb;
+   font-size: var(--p-font);
+   font-weight: 600;
+   transition: all .40s ease;
+}
+.contact-content li a:hover {
+   transform: translateX(-50px);
+}
+.jr{
+    background: #cfd2db;
+}
+
+
+.face{
+    width: 30px;
+    margin-bottom: 900px;
+    margin-left: -100px;
+}
+.face1{
+
+ width: 30px;
+    margin-bottom: 300px;
+    margin-left: -100px;
+}
+.face2{
+    
+ width: 30px;
+ margin-bottom: 100px;
+ margin-left: 100px;
+
+}
+.h1{color: rgb(145, 0, 0);}
+.boton {
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 16px 30px;
+  text-decoration: none;
+  background: linear-gradient(#f2f2f2, #d8d8d8);
+  border-left: 1px solid #f6f6f6;
+  border-right: 1px solid #e4e4e4;
+  color: #88787a;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0 2px rgba(0, 3, 160, 0.1);
+}
+.sesion11{
+text-decoration: none;
+}
+.free{
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 20px;
+    color: #cfd2db;
+   height: 60px;
+    
+}
+.sesion1 h1{
+    color: #cfd2db;
+}
+.fire{
+background-color: rgb(6, 9, 161);
+
+}
